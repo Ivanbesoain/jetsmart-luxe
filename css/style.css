@@ -150,9 +150,16 @@ body {
 }
 
 .topbar__title {
-    font-weight: 800;
-    letter-spacing: .06em;
+    font-weight: 900;
+    letter-spacing: .08em;
+    font-size: 18px;
+    text-transform: uppercase;
 }
+
+.t-strong{ font-weight: 950; }
+.t-soft{ font-weight: 650; color: rgba(231,237,245,.82); }
+
+
 
 .topbar__nav {
     margin-top: 10px;
@@ -547,5 +554,26 @@ body {
 
     .card img {
         height: 220px;
+    }
+
+    .topbar__brand {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .brand__mark {
+        width: 40px;
+        height: 40px;
+        border-radius: 12px;
+        font-size: 18px;
+    }
+
+    .topbar__title {
+        font-size: 22px;
+        letter-spacing: .12em;
+    }
+
+    .topbar__nav {
+        justify-content: center;
     }
 }
