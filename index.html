@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>JetSmart Luxe | Showroom de Aviones & Helicópteros</title>
+    <link rel="stylesheet" href="css/style.css" />
+</head>
+
+<body>
+    <div class="layout">
+
+        <!-- NAV / SIDEBAR -->
+        <aside class="sidebar" aria-label="Menú principal">
+            <a class="brand" href="#inicio" aria-label="Ir al inicio">
+                <span class="brand__mark">▲</span>
+                <span class="brand__text">
+                    <strong>JetSmart</strong><br />
+                    <small>LUXE SHOWROOM</small>
+                </span>
+            </a>
+
+            <nav class="nav" aria-label="Secciones">
+                <a href="#inicio">Inicio</a>
+                <a href="#catalogo">Catálogo</a>
+                <a href="#servicios">Servicios</a>
+                <a href="#seguridad">Seguridad</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+
+            <div class="sidebar__tag">
+                <span class="pill">Luxury</span>
+                <span class="pill pill--muted">Military</span>
+            </div>
+        </aside>
+
+        <!-- MAIN -->
+        <main class="main">
+            <!-- Topbar móvil -->
+            <header class="topbar" aria-label="Barra superior">
+                <a class="topbar__brand" href="#inicio">
+                    <span class="brand__mark">▲</span>
+                    <span class="topbar__title"><span class="t-strong">JetSmart</span> <span class="t-soft">Luxe</span></span>
+                </a>
+
+                <nav class="topbar__nav" aria-label="Menú móvil">
+                    <a href="#catalogo">Catálogo</a>
+                    <a href="#servicios">Servicios</a>
+                    <a href="#contacto">Contacto</a>
+                </nav>
+            </header>
+
+            <!-- HERO -->
+            <section id="inicio" class="hero">
+                <div class="hero__content">
+                    <h1>Aviones & Helicópteros<br><span>de lujo y exhibición</span></h1>
+                    <p>
+                        Showroom conceptual con estética aeronáutica: fichas, specs y vitrina visual.
+                        Diseñado para demostrar animaciones CSS, layout responsive y una marca coherente.
+                    </p>
+                    <div class="hero__chips">
+                        <span class="chip">Carbon black</span>
+                        <span class="chip">Titanium</span>
+                        <span class="chip">Gold accent</span>
+                    </div>
+                </div>
+
+                <div class="hero__panel" aria-hidden="true">
+                    <div class="radar">
+                        <div class="radar__sweep"></div>
+                        <div class="radar__dot radar__dot--a"></div>
+                        <div class="radar__dot radar__dot--b"></div>
+                        <div class="radar__dot radar__dot--c"></div>
+                    </div>
+
+                    <div class="hero__spec">
+                        <div>
+                            <small>Modo</small>
+                            <strong>SHOWROOM</strong>
+                        </div>
+                        <div>
+                            <small>Catálogo</small>
+                            <strong>6 modelos</strong>
+                        </div>
+                        <div>
+                            <small>Estado</small>
+                            <strong>EXHIBICIÓN</strong>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- GALERÍA -->
+            <section id="catalogo" class="section">
+                <div class="section__head">
+                    <h2>Catálogo</h2>
+                    <p>Galería con transición: blanco y negro → color + zoom + overlay.</p>
+                </div>
+
+                <div class="gallery">
+                    <article class="card">
+                        <img src="/img/jet-lux-x9.jpg" alt="Jet ejecutivo de lujo" />
+                        <div class="card__overlay">
+                            <h3>JET LUXE X9</h3>
+                            <p>Cabina premium · Alcance largo · Silencio</p>
+                            <span class="badge">Luxury</span>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <img src="/img/heli-vip-v7.jpg" alt="Helicóptero de lujo sobre ciudad" />
+                        <div class="card__overlay">
+                            <h3>HELI VIP V7</h3>
+                            <p>Despegue vertical · Interior cuero · Skyline</p>
+                            <span class="badge">Luxury</span>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <img src="/img/falcon-strike.jpg" alt="Aeronave militar en pista (exhibición)" />
+                        <div class="card__overlay">
+                            <h3>FALCON STRIKE</h3>
+                            <p>Alta maniobra · Perfil táctico · Exhibición</p>
+                            <span class="badge badge--mil">Military</span>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <img src="/img/raven-rotor.jpg" alt="Helicóptero militar (exhibición)" />
+                        <div class="card__overlay">
+                            <h3>RAVEN ROTOR</h3>
+                            <p>Operación robusta · Rescate · Exhibición</p>
+                            <span class="badge badge--mil">Military</span>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <img src="img/jet-stealth-s.jpg" alt="Jet de alto rendimiento (exhibición)" />
+                        <div class="card__overlay">
+                            <h3>JET STEALTH S</h3>
+                            <p>Perfil aerodinámico · Performance · Exhibición</p>
+                            <span class="badge badge--mil">Military</span>
+                        </div>
+                    </article>
+
+                    <article class="card">
+                        <img src="img/heli-rescue-rx.jpg" alt="Helicóptero multipropósito (exhibición)" />
+                        <div class="card__overlay">
+                            <h3>HELI RESCUE RX</h3>
+                            <p>Multipropósito · Operación robusta · Exhibición</p>
+                            <span class="badge">Luxury</span>
+                        </div>
+                    </article>
+
+                </div>
+            </section>
+
+            <!-- SERVICIOS -->
+            <section id="servicios" class="section">
+                <div class="section__head">
+                    <h2>Servicios</h2>
+                    <p>Presentación, interior premium, fotografía y tours guiados.</p>
+                </div>
+
+                <div class="features">
+                    <div class="feature">
+                        <h3>Tour en Hangar</h3>
+                        <p>Recorrido guiado por modelos y fichas (modo exhibición).</p>
+                    </div>
+                    <div class="feature">
+                        <h3>Interior & Detalle</h3>
+                        <p>Terminaciones, materiales, cabina y acabados premium.</p>
+                    </div>
+                    <div class="feature">
+                        <h3>Fotografía</h3>
+                        <p>Sesiones con iluminación tipo “catálogo” y estética aeronáutica.</p>
+                    </div>
+                </div>
+            </section>
+
+            <!-- SEGURIDAD / DISCLAIMER -->
+            <section id="seguridad" class="section section--muted">
+                <div class="section__head">
+                    <h2>Seguridad</h2>
+                    <p>
+                        Este sitio es un <strong>showroom conceptual</strong> para fines académicos (CSS/animación).
+                        No incluye ventas reales ni instrucciones sobre adquisición o uso de armamento.
+                    </p>
+                </div>
+            </section>
+
+            <!-- FOOTER -->
+            <footer id="contacto" class="footer">
+                <div class="footer__grid">
+                    <div>
+                        <h3>Contacto</h3>
+                        <p>Hangar 07 · Santiago, CL</p>
+                        <p><a href="mailto:contacto@jetsmartluxe.cl">contacto@jetsmartluxe.cl</a></p>
+                    </div>
+
+                    <div>
+                        <h3>Redes</h3>
+                        <div class="social">
+                            <a href="#" aria-label="Instagram">Instagram</a>
+                            <a href="#" aria-label="YouTube">YouTube</a>
+                            <a href="#" aria-label="X">X</a>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3>Horario</h3>
+                        <p>Lun–Vie: 10:00–18:00</p>
+                        <p>Sáb: 11:00–14:00</p>
+                    </div>
+                </div>
+
+                <div class="footer__bottom">
+                    <small>© 2026 JetSmart Luxe · Showroom académico</small>
+                </div>
+            </footer>
+        </main>
+    </div>
+</body>
+
+</html>
